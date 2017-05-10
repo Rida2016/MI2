@@ -1,0 +1,23 @@
+.Dambord {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    display: block;
+    background-color: skyblue;
+}
+
+.ZwarteBlok {
+    margin: 0;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    float: left;
+}
+
+.WitteBlok {
+    margin: 0;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    float: left;
+}
