@@ -16,163 +16,39 @@
 	<div id="intro">
 		<h1 id="introTxt"> Geography for dummies </h1>
 		<button value="start" type="submit" id="introButton"> Klik hier om te beginnen! </button>
-		<button id="introScore"> Kijk jouw score </button>
+		<p class="regels"> Regels:</p>
+<p class="regels"> Elke goede antwoord is 10 punten waard.</p>
+<p class="regels"> Bij elke foute antwoord krijg je min 5 punten.</p>
 	</div>
 
-	<!-- Level1 -->
+	<!-- LevelsPagina -->
 	<div id="level1">
 		<p id="goed"></p>
 		<p id="fout"></p>
-		<p id="levels">LEVEL 1/10</p>
-			<p id="lvl1Q"> Wat is de hoofdstad van Italië? </p> <img src="IMG/Italie.jpg" id="italie">
-			<form class="quiz">
-				<input name="Antw" id="Antw" type="text" autocomplete="off">
-				<input type="button" id="check" value="check">
-				<input type="button" id="next" value="next level">
-				<input type="button" class="terug" value="Try again!" >
-				
-			</form>
-		
+		<p id="levels">LEVEL <span class='level'></span>/10</p>
+		<p id="question">  </p> 
+		<img src="IMG/Italie.jpg" id="image">
+		<input name="Antw" id="Antw" type="text" autocomplete="off">
+		<input type="button" id="check" value="check">
+		<input type="button" id="next" value="next level">			<input type="button" class="terug" value="Try again!" >
 		
 	</div>
-	<!-- Level2 -->
-	<div id="level2">
-		<p id="goed2"></p>
-		<p id="fout2"></p>
-	<p id="levels">LEVEL 2/10</p>
-			<p id="lvl1Q"> Wat is de hoofdstad van Rusland? </p> <img src="IMG/mondeRussie.jpg" id="rusland">
-			<form class="quiz">
-				<input name="Antw2" id="Antw2" type="text" autocomplete="off">
-				<input type="button" id="check2" value="check">
-				<input type="button" id="next2" value="next level"> 
-				<input  type="button" class="terug2" value="Try again!" >
-			
-			</form>
-	</div>
-	<!-- Level3 -->
-	<div id="level3">
-		<p id="goed3"></p>
-		<p id="fout3"></p>
-	<p id="levels">LEVEL 3/10</p>
-			<p id="lvl1Q"> Wat is de hoofdstad van Marroko? </p> <img src="IMG/maroc.jpg" id="maroc">
-			<form class="quiz">
-				<input name="Antw3" id="Antw3" type="text" autocomplete="off">
-				<input type="button" id="check3" value="check">
-				<input type="button" id="next3" value="next level"> 
-				<input  type="button" class="terug3" value="Try again!" >
-			
-			</form>
-	</div>
-	<!-- Level4 -->
 	
-	<div id="level4">
-		<p id="goed4"></p>
-		<p id="fout4"></p>
-	<p id="levels">LEVEL 4/10</p>
-			<p id="lvl1Q"> Wat is de hoofdstad van Egypte? </p> 
-		<img src="IMG/egypte.jpg" id="egypte">
-			<form class="quiz">
-				<input name="Antw4" id="Antw4" type="text" autocomplete="off">
-				<input type="button" id="check4" value="check">
-				<input type="button" id="next4" value="next level"> 
-				<input  type="button" class="terug4" value="Try again!" >
-			
-			</form>
-	</div>
+	<!-- You Win -->
+	<div id="win">
+		
+		<h1>Proficiat!! </h1>
+		<h2> Je bent minder slecht in aardrijkskunde!! </h2>
+		<h3 id="score"></h3>
+		<img src="IMG/GIF.gif" id="GifWin">
+		<input type="button" id="exit" value="EXIT">
 	
-	<!-- level5 -->
-	<div id="level5">
-		<p id="goed5"></p>
-		<p id="fout5"></p>
-	<p id="levels">LEVEL 5/10</p>
-			<p id="lvl1Q"> In welke continent bevindt Colombië zich? </p> 
-		<img src="IMG/colombie.jpg" id="colombie">
-			<form class="quiz">
-				<input name="Antw5" id="Antw5" type="text" autocomplete="off">
-				<input type="button" id="check5" value="check">
-				<input type="button" id="next5" value="next level"> 
-				<input  type="button" class="terug5" value="Try again!" >
-			
-			</form>
-	</div>
 	
-	<!-- level6 -->
-	<div id="level6">
-		<p id="goed6"></p>
-		<p id="fout6"></p>
-	<p id="levels">LEVEL 6/10</p>
-			<p id="lvl1Q"> In welke continent bevindt India zich? </p> 
-		<img src="IMG/india.jpg" id="india">
-			<form class="quiz">
-				<input name="Antw6" id="Antw6" type="text" autocomplete="off">
-				<input type="button" id="check6" value="check">
-				<input type="button" id="next6" value="next level"> 
-				<input  type="button" class="terug6" value="Try again!" >
-			
-			</form>
-	</div>
-	<!-- level7 -->
-	<div id="level7">
-		<p id="goed7"></p>
-		<p id="fout7"></p>
-	<p id="levels">LEVEL 7/10</p>
-			<p id="lvl1Q"> In welke continent bevindt Ijsland zich? </p> 
-		<img src="IMG/ijsland.jpg" id="ijsland">
-			<form class="quiz">
-				<input name="Antw7" id="Antw7" type="text" autocomplete="off">
-				<input type="button" id="check7" value="check">
-				<input type="button" id="next7" value="next level"> 
-				<input  type="button" class="terug7" value="Try again!" >
-			
-			</form>
-	</div>
-	<!-- level8 -->
-	<div id="level8">
-		<p id="goed8"></p>
-		<p id="fout8"></p>
-	<p id="levels">LEVEL 8/10</p>
-			<p id="lvl1Q"> Ankara is de hoofdstad van welke land? </p> 
-		<img src="IMG/turkije.jpg" id="turkije">
-			<form class="quiz">
-				<input name="Antw8" id="Antw8" type="text" autocomplete="off">
-				<input type="button" id="check8" value="check">
-				<input type="button" id="next8" value="next level"> 
-				<input  type="button" class="terug8" value="Try again!" >
-			
-			</form>
-	</div>
 	
-	<!-- level9 -->
-		<div id="level9">
-		<p id="goed9"></p>
-		<p id="fout9"></p>
-	<p id="levels">LEVEL 9/10</p>
-			<p id="lvl1Q"> Lima is de hoofdstad van welke land? </p> 
-		<img src="IMG/peru.png" id="peru">
-			<form class="quiz">
-				<input name="Antw9" id="Antw9" type="text" autocomplete="off">
-				<input type="button" id="check9" value="check">
-				<input type="button" id="next9" value="next level"> 
-				<input  type="button" class="terug9" value="Try again!" >
-			
-			</form>
 	</div>
+	<!-- jouw score -->
 	
-	<!-- level10 -->
-		<div id="level10">
-		<p id="goed10"></p>
-		<p id="fout10"></p>
-	<p id="levels">LEVEL 10/10</p>
-			<p id="lvl1Q"> Welke land is dit? </p> 
-		<img src="IMG/madagascar.jpg" id="madagascar">
-			<form class="quiz">
-			<input name="Antw10" id="Antw10" type="text" autocomplete="off">
-			<input type="button" id="check10" value="check">
-			<input type="button" id="next10" value="next level"> 
-			<input  type="button" class="terug10" value="Try again!">
-			
-			</form>
-	</div>
+	
 	
 	
 	

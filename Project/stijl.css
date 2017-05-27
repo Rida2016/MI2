@@ -22,24 +22,18 @@ height: 100vh;
     text-align: center;
 }
 #introButton{
+	top: 50%;
     font-size:35px;
     color: white;
-    margin-left: 200px;
-    margin-top: 200px;
     background:black;
-    position: fixed;
     padding: 50px; 
-    
-    
-}
-#introScore{
-    font-size: 35px;
-    color: white;
-    margin-left: 950px;
-    margin-top: 200px;
-    background:black;
-    position: fixed;
-    padding: 50px;
+	margin: auto;
+	display: block;
+
+  }
+.regels{
+	font-size: 2em;
+	font-family: sans-serif;
 }
 #levels{
 	font-size: 35px;
@@ -55,7 +49,6 @@ height: 100vh;
 }
 /*-- level1 --*/
 #level1{
-background-image: url(IMG/level1.jpg);
 background-repeat: no-repeat;
 background-size: cover;    
 background-position: center;
@@ -63,7 +56,7 @@ position: absolute;
 width: 100%;
 height: 100vh;
 }
-#lvl1Q{
+#question{
     color: white;
     font-size: 45px;
     font-family:sans-serif;
@@ -72,6 +65,7 @@ height: 100vh;
 	top: 0px;
 	position:relative;
 }
+
 #Antw{
      width: 450px;
     height:auto;
@@ -83,21 +77,19 @@ height: 100vh;
     font-size: 35px;
 }
 #check{
-    background-image: url(IMG/vlagIT.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-color: bisque;
     width: 50%;
-    height: 35%;
+    height: 9%;
     text-align: center;
     display: block;
     margin: auto;
-    color: #900;
+    color: black;
     border-radius: 4px;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
     font-size: 40px;
 	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
 }
-#italie{
+#image{
     width: 450px;
     height: 450px;
     margin:auto;
@@ -153,259 +145,153 @@ font-family: fantasy;
 	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
 	
 }
-/*-- level2 --*/
-#level2{
-	background-image: url(IMG/level2.jpg);
-background-repeat: no-repeat;
-background-size: cover;    
-background-position: center;
-position: absolute;
-width: 100%;
-height: 100vh;
-}
 
-#rusland{
-	 width: 450px;
-    height: 450px;
-    margin:auto;
-    display: block;
-	
-}
-#check2{ 
-	background-color: white;
-    width: 50%;
-    height: 35%;
-    text-align: center;
-    display: block;
-    margin: auto;
-    color: #900;
-    border-radius: 4px;
-    text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-    font-size: 40px;
-	border-color: blue;
-}
-#next2{
-	font-family: sans-serif;
-	font-size: 45px;
-	height:auto;
-	width: 390px;
-	position: absolute;
-	right: 100px;
-	text-align: center;
-	color: white;
-	background-color: green;
-	top: 10em;
-	visibility: hidden;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-}
-#Antw2{
-	 width: 450px;
-    height:auto;
-    display: block;
-    margin: auto;
-    margin-top: 1em;
-    text-align: center;
-    border-radius: 4px;
-    font-size: 35px;
-}
-#goed2{
-	  font-family: fantasy;
-    font-size: 0px;
-    color: green;
-    text-align: center;
-    position:absolute;
-    top: 5em;
-    left: 12em;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-}
-#fout2{
-		  font-family: fantasy;
-    font-size: 0px;
-    color: red;
-    text-align: center;
-    position:absolute;
-    top: 5em;
-    left: 12em;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-}
-.terug2{
-	font-family: sans-serif;
-	font-size: 45px;
-	height:auto;
-	width: 390px;
-	position: absolute;
-	right: 100px;
-	text-align: center;
-	color: white;
-	background-color: red;
-	top: 10em;
-	visibility: hidden;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-	
-	
-}
-/*-- level3 --*/
-#level3{
-	background-image: url(IMG/Level3.jpg);
+/*-- you win --*/
+#win{
+background-image: url(IMG/win.jpg);
 background-repeat: no-repeat;
 background-size: cover;    
 background-position: center;
 position: absolute;
 width: 100%;
-height: 100vh;
-}
-#maroc{
-	 width: 450px;
-    height: 450px;
-    margin:auto;
-    display: block;
+height: 100%;
 	
 }
-#check3{ 
-	background-color: red;
-    width: 50%;
-    height: 35%;
-    text-align: center;
-    display: block;
-    margin: auto;
-    color: green;
-    border-radius: 4px;
-   text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-    font-size: 40px;
-}
-#next3{
-	font-family: sans-serif;
-	font-size: 45px;
-	height:auto;
-	width: 390px;
-	position: absolute;
-	right: 100px;
-	text-align: center;
-	color: white;
-	background-color: green;
-	top: 10em;
-	visibility: hidden;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-}
-#Antw3{
-	 width: 450px;
-    height:auto;
-    display: block;
-    margin: auto;
-    margin-top: 1em;
-    text-align: center;
-    border-radius: 4px;
-    font-size: 35px;
-}
-#goed3{
-	  font-family: fantasy;
-    font-size: 0px;
-    color: green;
-    text-align: center;
-    position:absolute;
-    top: 5em;
-    left: 12em;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-}
-#fout3{
-		  font-family: fantasy;
-    font-size: 0px;
-    color: red;
-    text-align: center;
-    position:absolute;
-    top: 5em;
-    left: 12em;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-}
-.terug3{
-	font-family: sans-serif;
-	font-size: 45px;
-	height:auto;
-	width: 390px;
-	position: absolute;
-	right: 100px;
-	text-align: center;
-	color: white;
-	background-color: red;
-	top: 10em;
-	visibility: hidden;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-}
-/*-- level4 --*/
-#level4{
-	background-image: url(IMG/level4.jpg);
-background-repeat: no-repeat;
-background-size: cover;    
-background-position: center;
-position: absolute;
-width: 100%;
-height: 100vh;
-}
-#egypte{
-	 width: 450px;
-    height: 450px;
-    margin:auto;
-    display: block;
-	
-}
-#check4{ 
-	background-color:burlywood;
-    width: 50%;
-    height: 35%;
+#exit{
+	background-color:white;
+	width: 35%;
     text-align: center;
     display: block;
     margin: auto;
     color: black;
     border-radius: 4px;
-	border-color: white;
 	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-    font-size: 40px;
+    font-size: 30px;
+	
 }
-#next4{
+h1,h2,h3{
+	 color: white;
+    font-size: 35px;
+    font-family:sans-serif;
+    text-align: center;
+	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
+	top: 0px;
+	position:relative;
+}
+#GifWin{
+	width: 450px;
+    height: 450px;
+    margin:auto;
+    display: block;
+}
+/*-- Mobile --*/
+@media only screen and (max-width: 700px)
+{
+	
+	#intro{
+    
+background-image: url(IMG/backMap.jpg);
+width: 100%;
+height: 100vh;
+}
+	
+#introTxt{
+	display: block;
+	top: 2em;
+    color: black;
+    font-family: sans-serif;
+    font-size: 300%;
+	margin: auto;
+}
+	
+#introButton{
+	
+    font-size: 1em;
+    color: white;
+   	margin-top: 18em;
+    background:black;
+	width: 100%;
+	height: 5em;
+	padding:1.5% 1.5% 1.5% 1.5%;
+	
+}
+	
+#levels{
+	font-size: 2em;
 	font-family: sans-serif;
-	font-size: 45px;
-	height:auto;
-	width: 390px;
-	position: absolute;
-	right: 100px;
 	text-align: center;
 	color: white;
-	background-color: green;
-	top: 10em;
-	visibility: hidden;
 	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
+	margin-left: 32vw;
+	top: 0;
+	position: inherit;
 }
-#Antw4{
-	 width: 450px;
+	#level1{
+background-repeat: no-repeat;
+background-size: cover;    
+background-position: center;
+position: absolute;
+width: 100%;
+height: 100vh;
+}
+#question{
+	display:inline-block;
+    color: white;
+    font-size: 150%;
+    font-family:sans-serif;
+    text-align: center;
+	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
+	top: 12vh;
+	margin-left: 12vw;
+}
+
+#Antw{
+     width: 100%;
     height:auto;
     display: block;
     margin: auto;
     margin-top: 1em;
     text-align: center;
-    border-radius: 4px;
     font-size: 35px;
 }
-#goed4{
-	  font-family: fantasy;
+#check{
+	background-color: bisque;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin: auto;
+    color: black;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    font-size: 30px;
+	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
+}
+#image{
+	margin-top: 25vw;
+    width: 40vh;
+    height: 40vh;
+}
+#goed{
+	margin: auto;
+	display: block;
+    font-family: fantasy;
     font-size: 0px;
     color: green;
     text-align: center;
-    position:absolute;
-    top: 5em;
-    left: 12em;
 	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
 }
-#fout4{
-		  font-family: fantasy;
+#fout{
+font-family: fantasy;
     font-size: 0px;
-    color: red;
     text-align: center;
     position:absolute;
     top: 5em;
     left: 12em;
+    color: red;
 	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
 }
-.terug4{
+.terug{
 	font-family: sans-serif;
 	font-size: 45px;
 	height:auto;
@@ -418,535 +304,81 @@ height: 100vh;
 	top: 10em;
 	visibility: hidden;
 	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
+	
+}
+#next{
+
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    font-size: 30px;
+	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
+	color: white;
+	background-color: green;
+	visibility: hidden;
 	}
 
-/*-- level5 --*/
-#level5{
-background-image: url(IMG/level5.jpg);
+/*-- you win --*/
+#win{
+background-image: url(IMG/win.jpg);
 background-repeat: no-repeat;
 background-size: cover;    
 background-position: center;
 position: absolute;
 width: 100%;
-height: 100vh;
-}
-#colombie{
-	 width: 450px;
-    height: 450px;
-    margin:auto;
-    display: block;
-	visibility: hidden;
+height: 100%;
 	
 }
-#check5{ 
-	background-color: yellow;
-    width: 50%;
-    height: 35%;
+#exit{
+	background-color:white;
+	width: 100%;
     text-align: center;
     display: block;
     margin: auto;
-    color: red;
+    color: black;
     border-radius: 4px;
-	border-color: blue;
 	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-    font-size: 40px;
-}
-#next5{
-	font-family: sans-serif;
-	font-size: 45px;
-	height:auto;
-	width: 390px;
-	position: absolute;
-	right: 100px;
-	text-align: center;
-	color: white;
-	background-color: green;
-	top: 10em;
-	visibility: hidden;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-}
-#Antw5{
-	width: 450px;
-    height:auto;
-    display: block;
-    margin: auto;
-    margin-top: 1em;
-    text-align: center;
-    border-radius: 4px;
-    font-size: 35px;
-}
-#goed5{
-	 font-family: fantasy;
-    font-size: 0px;
-    color: green;
-    text-align: center;
-    position:absolute;
-    top: 5em;
-    left: 12em;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-}
-#fout5{
-	font-family: fantasy;
-    font-size: 0px;
-    color: red;
-    text-align: center;
-    position:absolute;
-    top: 5em;
-    left: 12em;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-}
-.terug5{
-	font-family: sans-serif;
-	font-size: 45px;
-	height:auto;
-	width: 390px;
-	position: absolute;
-	right: 100px;
-	text-align: center;
-	color: white;
-	background-color: red;
-	top: 10em;
-	visibility: hidden;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-	}
-/*-- level6 --*/
-#level6{
-background-image: url(IMG/level6.jpg);
-background-repeat: no-repeat;
-background-size: cover;    
-background-position: center;
-position: absolute;
-width: 100%;
-height: 100vh;
-}
-#india{
-	 width: 450px;
-    height: 450px;
-    margin:auto;
-    display: block;
-	visibility: hidden;
+    font-size: 30px;
 	
 }
-#check6{ 
-	background-color: orangered;
-    width: 50%;
-    height: 35%;
-    text-align: center;
-    display: block;
-    margin: auto;
-    color: white;
-    border-radius: 4px;
-	border-color: green;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-    font-size: 40px;
-}
-#next6{
+h1{
+	 font-size: 2em;
 	font-family: sans-serif;
-	font-size: 45px;
-	height:auto;
-	width: 390px;
-	position: absolute;
-	right: 100px;
 	text-align: center;
 	color: white;
-	background-color: green;
-	top: 10em;
-	visibility: hidden;
 	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
+	top: 0;
+	position: inherit;
+	margin-left:15vh;
 }
-#Antw6{
-	width: 450px;
-    height:auto;
-    display: block;
-    margin: auto;
-    margin-top: 1em;
-    text-align: center;
-    border-radius: 4px;
-    font-size: 35px;
-}
-#goed6{
-	 font-family: fantasy;
-    font-size: 0px;
-    color: green;
-    text-align: center;
-    position:absolute;
-    top: 5em;
-    left: 12em;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-}
-#fout6{
-	font-family: fantasy;
-    font-size: 0px;
-    color: red;
-    text-align: center;
-    position:absolute;
-    top: 5em;
-    left: 12em;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-}
-.terug6{
+h2{
+	 font-size: 2em;
 	font-family: sans-serif;
-	font-size: 45px;
-	height:auto;
-	width: 390px;
-	position: absolute;
-	right: 100px;
 	text-align: center;
 	color: white;
-	background-color: red;
-	top: 10em;
-	visibility: hidden;
 	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-	}
-/*-- level7 --*/
-#level7{
-background-image: url(IMG/level7.jpg);
-background-repeat: no-repeat;
-background-size: cover;    
-background-position: center;
-position: absolute;
-width: 100%;
-height: 100vh;
+	top: 2em;
+	position: inherit;
 }
-#ijsland{
-	 width: 450px;
-    height: 450px;
-    margin:auto;
-    display: block;
-	visibility: hidden;
-	
-}
-#check7{ 
-	background-color: mediumblue;
-    width: 50%;
-    height: 35%;
-    text-align: center;
-    display: block;
-    margin: auto;
-    color: white;
-    border-radius: 4px;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-    font-size: 40px;
-}
-#next7{
+h3{
+	 font-size: 1em;
 	font-family: sans-serif;
-	font-size: 45px;
-	height:auto;
-	width: 390px;
-	position: absolute;
-	right: 100px;
 	text-align: center;
 	color: white;
-	background-color: green;
-	top: 10em;
-	visibility: hidden;
 	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
+	top: 3em;
+	position: inherit;
 }
-#Antw7{
-	width: 450px;
-    height:auto;
-    display: block;
-    margin: auto;
-    margin-top: 1em;
-    text-align: center;
-    border-radius: 4px;
-    font-size: 35px;
+#GifWin{
+	margin-top: 55vw;
+    width: 40vh;
+    height: 40vh;
 }
-#goed7{
-	 font-family: fantasy;
-    font-size: 0px;
-    color: green;
-    text-align: center;
-    position:absolute;
-    top: 5em;
-    left: 12em;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-}
-#fout7{
-	font-family: fantasy;
-    font-size: 0px;
-    color: red;
-    text-align: center;
-    position:absolute;
-    top: 5em;
-    left: 12em;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-}
-.terug7{
-	font-family: sans-serif;
-	font-size: 45px;
-	height:auto;
-	width: 390px;
-	position: absolute;
-	right: 100px;
-	text-align: center;
-	color: white;
-	background-color: red;
-	top: 10em;
-	visibility: hidden;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-	}
-/*-- level8 --*/
-#level8{
-background-image: url(IMG/level8.jpg);
-background-repeat: no-repeat;
-background-size: cover;    
-background-position: center;
-position: absolute;
-width: 100%;
-height: 100vh;
-}
-#turkije{
-	 width: 450px;
-    height: 450px;
-    margin:auto;
-    display: block;
-	visibility: hidden;
-	
-}
-#check8{ 
-	background-color: mediumblue;
-    width: 50%;
-    height: 35%;
-    text-align: center;
-    display: block;
-    margin: auto;
-    color: white;
-    border-radius: 4px;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-    font-size: 40px;
-}
-#next8{
-	font-family: sans-serif;
-	font-size: 45px;
-	height:auto;
-	width: 390px;
-	position: absolute;
-	right: 100px;
-	text-align: center;
-	color: white;
-	background-color: green;
-	top: 10em;
-	visibility: hidden;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-}
-#Antw8{
-	width: 450px;
-    height:auto;
-    display: block;
-    margin: auto;
-    margin-top: 1em;
-    text-align: center;
-    border-radius: 4px;
-    font-size: 35px;
-}
-#goed8{
-	 font-family: fantasy;
-    font-size: 0px;
-    color: green;
-    text-align: center;
-    position:absolute;
-    top: 5em;
-    left: 12em;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-}
-#fout8{
-	font-family: fantasy;
-    font-size: 0px;
-    color: red;
-    text-align: center;
-    position:absolute;
-    top: 5em;
-    left: 12em;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-}
-.terug8{
-	font-family: sans-serif;
-	font-size: 45px;
-	height:auto;
-	width: 390px;
-	position: absolute;
-	right: 100px;
-	text-align: center;
-	color: white;
-	background-color: red;
-	top: 10em;
-	visibility: hidden;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-	}
-/*-- level9 --*/
-#level9{
-background-image: url(IMG/level9.jpg);
-background-repeat: no-repeat;
-background-size: cover;    
-background-position: center;
-position: absolute;
-width: 100%;
-height: 100vh;
-}
-#peru{
-	 width: 450px;
-    height: 450px;
-    margin:auto;
-    display: block;
-	visibility: hidden;
-	
-}
-#check9{ 
-	background-color: mediumblue;
-    width: 50%;
-    height: 35%;
-    text-align: center;
-    display: block;
-    margin: auto;
-    color: white;
-    border-radius: 4px;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-    font-size: 40px;
-}
-#next9{
-	font-family: sans-serif;
-	font-size: 45px;
-	height:auto;
-	width: 390px;
-	position: absolute;
-	right: 100px;
-	text-align: center;
-	color: white;
-	background-color: green;
-	top: 10em;
-	visibility: hidden;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-}
-#Antw9{
-	width: 450px;
-    height:auto;
-    display: block;
-    margin: auto;
-    margin-top: 1em;
-    text-align: center;
-    border-radius: 4px;
-    font-size: 35px;
-}
-#goed9{
-	 font-family: fantasy;
-    font-size: 0px;
-    color: green;
-    text-align: center;
-    position:absolute;
-    top: 5em;
-    left: 12em;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-}
-#fout9{
-	font-family: fantasy;
-    font-size: 0px;
-    color: red;
-    text-align: center;
-    position:absolute;
-    top: 5em;
-    left: 12em;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-}
-.terug9{
-	font-family: sans-serif;
-	font-size: 45px;
-	height:auto;
-	width: 390px;
-	position: absolute;
-	right: 100px;
-	text-align: center;
-	color: white;
-	background-color: red;
-	top: 10em;
-	visibility: hidden;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-	}
 
-/*-- level10 --*/
-#level10{
-background-image: url(IMG/level10.jpg);
-background-repeat: no-repeat;
-background-size: cover;    
-background-position: center;
-position: absolute;
-width: 100%;
-height: 100vh;
-}
-#madagascar{
-	 width: 450px;
-    height: 450px;
-    margin:auto;
-    display: block;
+	
 	
 }
-#check10{ 
-	background-color: mediumblue;
-    width: 50%;
-    height: 35%;
-    text-align: center;
-    display: block;
-    margin: auto;
-    color: white;
-    border-radius: 4px;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-    font-size: 40px;
-}
-#next10{
-	font-family: sans-serif;
-	font-size: 45px;
-	height:auto;
-	width: 390px;
-	position: absolute;
-	right: 100px;
-	text-align: center;
-	color: white;
-	background-color: green;
-	top: 10em;
-	visibility: hidden;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-}
-#Antw10{
-	width: 450px;
-    height:auto;
-    display: block;
-    margin: auto;
-    margin-top: 1em;
-    text-align: center;
-    border-radius: 4px;
-    font-size: 35px;
-}
-#goed10{
-	 font-family: fantasy;
-    font-size: 0px;
-    color: green;
-    text-align: center;
-    position:absolute;
-    top: 5em;
-    left: 12em;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-}
-#fout10{
-	font-family: fantasy;
-    font-size: 0px;
-    color: red;
-    text-align: center;
-    position:absolute;
-    top: 5em;
-    left: 12em;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-}
-.terug10{
-	font-family: sans-serif;
-	font-size: 45px;
-	height:auto;
-	width: 390px;
-	position: absolute;
-	right: 100px;
-	text-align: center;
-	color: white;
-	background-color: red;
-	top: 10em;
-	visibility: hidden;
-	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
-	}
