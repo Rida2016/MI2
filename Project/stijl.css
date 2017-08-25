@@ -7,7 +7,7 @@ padding: 0;
 
 #intro{
     
-background-image: url(IMG/backMap.jpg);
+background-image: url(../IMG/backMap.jpg);
 background-repeat: no-repeat;
 background-size: cover;    
 background-position: center;
@@ -31,8 +31,10 @@ height: 100vh;
 	display: block;
 
   }
-.regels{
-	font-size: 2em;
+#regels p{
+    border-style: dashed;
+    border-color: black 1px 1px 1px 1px;
+	font-size: 1.5em;
 	font-family: sans-serif;
 }
 #levels{
@@ -47,7 +49,7 @@ height: 100vh;
 	position: inherit;
 	
 }
-/*-- level1 --*/
+/*-- levels --*/
 #level1{
 background-repeat: no-repeat;
 background-size: cover;    
@@ -90,10 +92,9 @@ height: 100vh;
 	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
 }
 #image{
-    width: 450px;
-    height: 450px;
-    margin:auto;
-    display: block;
+    margin-left: 38%;
+    width: 50vh;
+    height: 50vh;
 }
 #goed{
     font-family: fantasy;
@@ -101,8 +102,8 @@ height: 100vh;
     color: green;
     text-align: center;
     position:absolute;
-    top: 5em;
-    left: 12em;
+    top: 20%;
+    left: 38%;
 	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
 }
 #fout{
@@ -110,8 +111,8 @@ font-family: fantasy;
     font-size: 0px;
     text-align: center;
     position:absolute;
-    top: 5em;
-    left: 12em;
+    top: 20%;
+    left: 38%;
     color: red;
 	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
 }
@@ -148,7 +149,7 @@ font-family: fantasy;
 
 /*-- you win --*/
 #win{
-background-image: url(IMG/win.jpg);
+background-image: url(../IMG/Backwin.jpg);
 background-repeat: no-repeat;
 background-size: cover;    
 background-position: center;
@@ -184,15 +185,30 @@ h1,h2,h3{
     margin:auto;
     display: block;
 }
+
+
+
+
+
+
+
 /*-- Mobile --*/
-@media only screen and (max-width: 700px)
+
+
+
+
+
+
+@media only screen and (max-width: 420px)
 {
 	
 	#intro{
+        margin: 0;
+        padding: 0;
     
-background-image: url(IMG/backMap.jpg);
+background-image: url(../IMG/backMap.jpg);
 width: 100%;
-height: 100vh;
+height: 100%;
 }
 	
 #introTxt{
@@ -215,7 +231,13 @@ height: 100vh;
 	padding:1.5% 1.5% 1.5% 1.5%;
 	
 }
-	
+	#regels p
+    {
+    border-style: dashed;
+    border-color: black 1px 1px 1px 1px;
+	font-size: 1.5em;
+        font-family: sans-serif;}
+    
 #levels{
 	font-size: 2em;
 	font-family: sans-serif;
@@ -255,6 +277,7 @@ height: 100vh;
     font-size: 35px;
 }
 #check{
+    margin-top: 65%;
 	background-color: bisque;
     width: 100%;
     height: auto;
@@ -268,12 +291,14 @@ height: 100vh;
 	text-shadow: 1px 1px 1px black, 1px 0px 1px black;
 }
 #image{
-	margin-top: 25vw;
+    margin-left: 15%;
+	margin-top: 30%;
     width: 40vh;
     height: 40vh;
+    
 }
 #goed{
-	margin: auto;
+    margin-left: 38%;
 	display: block;
     font-family: fantasy;
     font-size: 0px;
@@ -324,7 +349,7 @@ font-family: fantasy;
 
 /*-- you win --*/
 #win{
-background-image: url(IMG/win.jpg);
+background-image: url(../IMG/Backwin.jpg);
 background-repeat: no-repeat;
 background-size: cover;    
 background-position: center;
@@ -379,6 +404,5 @@ h3{
     height: 40vh;
 }
 
-	
 	
 }
